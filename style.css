@@ -21,6 +21,15 @@ body {
 
 .stats-container {
     display: flex;
+    margin: auto;
+    border: 1px orangered;
+    padding: 15px;
+    align-items: center;
+    cursor:pointer;
+}
+
+.stats_container:hover {
+    box-shadow: 0 0 30px lightblue;
 }
 
 .stats-card {
@@ -72,4 +81,35 @@ button {
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+}
+
+/* I for the navbar to send person to the my game section. */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
+
+.colorpad{
+    color: orange;
+    font-size: 24px;
 }
