@@ -1,4 +1,4 @@
-# WEB102 Prework - *Name of App Here*
+# WEB102 Prework - *Super Sea Of Video Games*
 
 Submitted by: **Jamar Brown**
 
